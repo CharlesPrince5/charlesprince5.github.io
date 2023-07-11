@@ -6,6 +6,10 @@
   border: none;
   outline: none;
 }
+img {
+  width: 100%;
+  height: auto;
+}
 body {
   background-color: #9873fe;
 }
