@@ -20,7 +20,7 @@ currencies.forEach((currency) => {
 
 //Setting default values
 fromDropDown.value = "USD";
-toDropDown.value = "INR";
+toDropDown.value = "JPY";
 
 let convertCurrency = () => {
   //Create References
