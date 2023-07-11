@@ -10,8 +10,15 @@ img {
   width: 100%;
   height: auto;
 }
+.img2 {
+  width: 100%;
+  height: auto;
+  padding: 1em 0;
+  margin-top: 1em;
+  border-radius: 0.3em;
+}
 body {
-  background-color: #9873fe;
+  background-color: #947f09;
 }
 .wrapper {
   width: 90%;
@@ -52,8 +59,8 @@ input#amount {
   padding: 0.5em;
 }
 input#amount:focus {
-  color: #9873fe;
-  border-color: #9873fe;
+  color: #947f09;
+  border-color: #947f09;
 }
 .dropdowns {
   display: flex;
@@ -73,8 +80,8 @@ select {
   background-repeat: no-repeat;
   background-position: right 15px top 50%, center;
   background-size: 20px 20px;
-  background-color: #9873fe;
-  color: #ffffff;
+  background-color: #947f09;
+  color: #02002c;
 }
 select option {
   background-color: #ffffff;
@@ -83,11 +90,11 @@ select option {
 button {
   font-size: 1em;
   width: 100%;
-  background-color: #9873fe;
+  background-color: #947f09;
   padding: 1em 0;
   margin-top: 2em;
   border-radius: 0.3em;
-  color: #ffffff;
+  color: #02002c;
   font-weight: 600;
 }
 #result {
@@ -95,6 +102,6 @@ button {
   text-align: center;
   margin-top: 1em;
   color: #02002c;
-  background-color: #e5dbff;
+  background-color: #947f09;
   padding: 0.8em 0;
 }
