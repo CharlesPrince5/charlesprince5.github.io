@@ -1,0 +1,43 @@
+﻿{
+  "form": {
+    "ok": "Ok",
+    "cancel": "Cancel",
+    "save": "Save",
+    "discard": "Discard",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "msgBox": {
+    "errorId": "Error ID: ",
+    "saveChanges": "You have some pending changes.  Do you wish to save those changes?",
+    "browserSaveChanges": "You have some unsaved changes.",
+    "copyLink": "Copy Link",
+    "helpLink": "Show Help"
+  },
+  "error": {
+    "generic": "An error has occurred. Please contact your system administrator."
+  },
+  "message": {
+    "requiredInput": "This field is required",
+    "inputNeedsToBeNumber": "This field's value needs to be a number",
+    "inputNeedsToBePositiveNumber": "This field's value needs to be a number positive number.",
+    "inputNeedsToBePositiveInteger": "This field's value needs to be a number positive integer.",
+    "loading": "Loading...",
+    "collapse": "Collapse",
+    "expand": "Expand",
+    "emptyList": "(empty)"
+  },
+  "fluxGrid": {
+    "clear": "Clear",
+    "endDate": "End Date: ",
+    "endTime": "End Time",
+    "filter": "Filter",
+    "filterValue": "Filter Value: ",
+    "startDate": "Start Date: ",
+    "startTime": "Start Time: ",
+    "selectOptions": "Select Enabled Options: "
+  },
+  "grid": {
+    "itemsPerPage": "Items per page"
+  }
+}

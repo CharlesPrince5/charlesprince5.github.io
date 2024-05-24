@@ -1,0 +1,501 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 6.0.0.154">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Knowledge Book URL Query String</title>
+  <meta name="description" content="" /> 
+  <meta name="keywords" content="">
+
+
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Knowledge Book URL Query String">
+  <meta name="twitter:description" content="">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Knowledge Book URL Query String" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="" />
+  <meta property="og:site_name" content="V-Suite Web R4" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.3.6/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.2/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.2/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-dark-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded #main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+  <link href="css/header.css" rel="stylesheet" />
+
+  
+
+
+<style type='text/css'>
+.header-item-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.header-item a {
+color: rgb(238, 238, 238);
+text-decoration: none;
+}
+.header-item a:hover {
+text-decoration: underline;
+}
+</style>
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+ 
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>V-Suite Web R4</h1>
+    <a href="https://visionaize.com" target="_blank" <p class="rvps1"><img alt="" align="middle" style="padding: 1px; height: 30px;" src="images/logoheaderSolid.png"></p></a>
+     
+  </header>
+
+  <nav class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="KnowledgeBookURLQueryString"
+		  data-hnd-context="98"
+		  data-hnd-title="Knowledge Book URL Query String"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="KnowledgeBook.html">Knowledge Book</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group-xs" role="group"><a class="btn btn-default" href="KnowledgeBook.html" title="Knowledge Book" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="SceneExport.html" title="Scene Export" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Knowledge Book URL Query String</h2>
+
+            <div class="main-content">
+                
+<p></p>
+<p class="rvps2"><span class="rvts6">Users can share a Knowledge View or Folder via the </span><span class="rvts29">Share </span><span class="rvts6">icon in the </span><a class="rvts11" href="ApplicationHeader.html">application header.</a><span class="rvts6">&nbsp;Users can also generate an inbound URL instructing the Knowledge Book application to open a Knowledge View and zoom to a specific asset within that Knowledge View view via the </span><a class="rvts11" href="AssetContextMenu.html">asset context menu</a><span class="rvts6">&nbsp;</span><span class="rvts29">Copy Link</span><span class="rvts6">&nbsp;command. These application commands will generate inbound URLs based on internal ID's. An application generated inbound URL will look like this:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts30">https://vsuite.mycompany.com/KnowledgeBook/rc/nav/122ace4d-31c0-e811-8166-0299893c3555</span></p>
+<p class="rvps2"><span class="rvts30"><br/></span></p>
+<p class="rvps2"><span class="rvts6">However, to allow external web sites or applications to direct users to a V-Suite Knowledge View or Folder based on the name, one can provide a URL with a query string.</span></p>
+<h1 class="rvps7"><span class="rvts0"><span class="rvts28">URL Query Strings</span></span></h1>
+<p class="rvps2"><span class="rvts6">The Knowledge Book application supports query strings to open a Knowledge View Folder, Knowledge View or Scratch Pad Page. The following query strings are supported:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<div class="rvps2"><table width="500" border="1" cellpadding="5" cellspacing="0" style="border-color: #3399ff; border-style: solid; background-color: #dbe9f8; border-spacing: 0px;">
+<tr valign="top">
+<td width="16" valign="middle" style="border-width : 0px; padding: 5px; background-color: #246bb2;"><p class="rvps2"><img alt="Warning" style="vertical-align: text-bottom;" src="lib/Storagev-suite-2017warning19.png"></p>
+</td>
+<td valign="middle" style="border-width : 0px; padding: 5px;"><p class="rvps2"><span class="rvts14">Actions are case-sensitive. </span><span class="rvts6">Specifying 'openkv' or 'zoom' will work, 'OpenKV' or 'Zoom' will result in an error.</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<div class="rvps2"><table width="100%" border="1" cellpadding="4" cellspacing="-1" style="border-width: 0px; border-collapse: collapse;">
+<tr valign="top">
+<td width="226" valign="middle" style="border-width : 1px; border-color: #cdcdcd; border-style: solid; padding: 4px; background-color: #000000;"><p class="rvps2"><span class="rvts12">Action</span></p>
+</td>
+<td width="368" valign="middle" style="border-width : 1px; border-color: #cdcdcd; border-style: solid; padding: 4px; background-color: #000000;"><p class="rvps2"><span class="rvts12">Description</span></p>
+</td>
+<td valign="middle" style="border-width : 1px; border-color: #cdcdcd; border-style: solid; padding: 4px; background-color: #000000;"><p class="rvps2"><span class="rvts12">Value</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="226" valign="middle" style="border-width : 1px; border-color: #cdcdcd; border-style: solid; padding: 4px;"><p class="rvps2"><span class="rvts6">?openfolder</span></p>
+</td>
+<td width="368" valign="middle" style="border-width : 1px; border-color: #cdcdcd; border-style: solid; padding: 4px;"><p class="rvps2"><span class="rvts6">Navigates to a </span><a class="rvts11" href="ExploreKnowledgeBook.html">Knowledge View </a><a class="rvts11" href="ExploreKnowledgeBook.html">Folder.</a></p>
+</td>
+<td valign="middle" style="border-width : 1px; border-color: #cdcdcd; border-style: solid; padding: 4px;"><p class="rvps2"><span class="rvts6">The encoded location of the folder. To avoid conflicts with common characters in folder and view names the folder separators must be indicated with the following escape sequence: _._</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="226" valign="middle" style="border-width : 1px; border-color: #cdcdcd; border-style: solid; padding: 4px;"><p class="rvps2"><span class="rvts6">?openkv</span></p>
+</td>
+<td width="368" valign="middle" style="border-width : 1px; border-color: #cdcdcd; border-style: solid; padding: 4px;"><p class="rvps2"><span class="rvts6">Opens a </span><a class="rvts11" href="Viewer.html">Knowledge View in the viewer.</a></p>
+</td>
+<td valign="middle" style="border-width : 1px; border-color: #cdcdcd; border-style: solid; padding: 4px;"><p class="rvps2"><span class="rvts6">The encoded location and name of the knowledge view</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="226" valign="middle" style="border-width : 1px; border-color: #cdcdcd; border-style: solid; padding: 4px;"><p class="rvps2"><span class="rvts6">&amp;spp</span></p>
+</td>
+<td width="368" valign="middle" style="border-width : 1px; border-color: #cdcdcd; border-style: solid; padding: 4px;"><p class="rvps2"><span class="rvts6">Opens a Scratch Pad Page in the </span><a class="rvts11" href="ScratchPadPageEditor.html">Scratch Pad Page Editor</a><span class="rvts6">.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Must be used in conjunction with the </span><span class="rvts29">?openkv</span><span class="rvts6">&nbsp;action.</span></p>
+</td>
+<td valign="middle" style="border-width : 1px; border-color: #cdcdcd; border-style: solid; padding: 4px;"><p class="rvps2"><span class="rvts6">The encoded name of the scratch pad page.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="226" valign="middle" style="border-width : 1px; border-color: #cdcdcd; border-style: solid; padding: 4px;"><p class="rvps2"><span class="rvts6">&amp;zoom</span></p>
+</td>
+<td width="368" valign="middle" style="border-width : 1px; border-color: #cdcdcd; border-style: solid; padding: 4px;"><p class="rvps2"><span class="rvts6">Zooms and </span><a class="rvts11" href="PickAsset.html">picks</a><span class="rvts6">&nbsp;(highlights) an asset in the viewer.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Must be used in conjunction with the </span><span class="rvts29">?openkv</span><span class="rvts6">&nbsp;action.</span></p>
+</td>
+<td valign="middle" style="border-width : 1px; border-color: #cdcdcd; border-style: solid; padding: 4px;"><p class="rvps2"><span class="rvts6">The encoded name of the asset.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="226" valign="middle" style="border-width : 1px; border-color: #cdcdcd; border-style: solid; padding: 4px;"><p class="rvps2"><span class="rvts6">&amp;type</span></p>
+</td>
+<td width="368" valign="middle" style="border-width : 1px; border-color: #cdcdcd; border-style: solid; padding: 4px;"><p class="rvps2"><span class="rvts6">Type is an optional supplemental parameter used for the </span><span class="rvts29">&amp;zoom</span><span class="rvts6">&nbsp;action. It helps uniquely identify an asset in case there are multiple assets with a certain name inside of the opened knowledge view.</span></p>
+</td>
+<td valign="middle" style="border-width : 1px; border-color: #cdcdcd; border-style: solid; padding: 4px;"><p class="rvps2"><span class="rvts6">The encoded type of the asset.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="226" valign="middle" style="border-width : 1px; border-color: #cdcdcd; border-style: solid; padding: 4px;"><p class="rvps2"><span class="rvts6">&amp;pickcolor</span></p>
+</td>
+<td width="368" valign="middle" style="border-width : 1px; border-color: #cdcdcd; border-style: solid; padding: 4px;"><p class="rvps2"><span class="rvts6">Pickcolor is an optional supplemental parameter used for the </span><span class="rvts29">&amp;zoom</span><span class="rvts6">&nbsp;action. It is used to specify an alternative asset highlight color when zooming to an asset in the viewer. </span></p>
+</td>
+<td valign="middle" style="border-width : 1px; border-color: #cdcdcd; border-style: solid; padding: 4px;"><p class="rvps2"><span class="rvts6">The highlight color's hex code (without the initial hashtag '#' character). For example specifying a &amp;pickcolor value "8B0000" means using dark red as the highlight color.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="226" valign="middle" style="border-width : 1px; border-color: #cdcdcd; border-style: solid; padding: 4px;"><p class="rvps2"><span class="rvts6">&amp;viewer</span></p>
+</td>
+<td width="368" valign="middle" style="border-width : 1px; border-color: #cdcdcd; border-style: solid; padding: 4px;"><p class="rvps2"><span class="rvts6">Controls the layout of the displayed Knowledge View application.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">This action is only useful if you want to limit the UI shown in the Knowledge View application when rendering the viewer inside of an HTML IFrame.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">This action is intended to be used by application integrators only.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Must be used in conjunction with the </span><span class="rvts29">?openkv</span><span class="rvts6">&nbsp;action.</span></p>
+</td>
+<td valign="middle" style="border-width : 1px; border-color: #cdcdcd; border-style: solid; padding: 4px;"><p class="rvps2"><span class="rvts6">Set to </span><span class="rvts29">=full</span><span class="rvts6">&nbsp;to open the standard Knowledge View layout, with all controls and functionality included. This is the default option when the viewer action is omitted.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Set to </span><span class="rvts29">=basic</span><span class="rvts6">&nbsp;to limit the UI and features to only those suitable to be shown when embedded inside of an IFrame. Limitations include:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">The standard application header bar is hidden.</span></li>
+<li class="rvps2"><span class="rvts6">The left-side TAB controls (Content Browser, Display Manager, Notes and Scratch Pad) are not available.</span></li>
+<li class="rvps2"><span class="rvts6">Commands for creating Notes and Scratch Pad pages are unavailable.</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Set to </span><span class="rvts29">=navonly</span><span class="rvts6">&nbsp;to open the viewer with minimal (navigation only) functionality.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="226" valign="middle" style="border-width : 1px; border-color: #cdcdcd; border-style: solid; padding: 4px;"><p class="rvps2"><span class="rvts6">&amp;xray</span></p>
+</td>
+<td width="368" valign="middle" style="border-width : 1px; border-color: #cdcdcd; border-style: solid; padding: 4px;"><p class="rvps2"><span class="rvts6">Turns on the X-ray mode in the viewer.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Must be used in conjunction with the </span><span class="rvts29">?openkv</span><span class="rvts6">&nbsp;action.</span></p>
+</td>
+<td valign="middle" style="border-width : 1px; border-color: #cdcdcd; border-style: solid; padding: 4px;"><ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">set to </span><span class="rvts29">=on</span><span class="rvts6">&nbsp;to turn on the X-ray mode.</span></li>
+<li class="rvps2"><span class="rvts6">set to </span><span class="rvts29">=off</span><span class="rvts6">&nbsp;to turn off the X-ray mode. (By default, the X-ray mode is off for all KVs.)</span></li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<div class="rvps2"><table width="90%" border="1" cellpadding="5" cellspacing="0" style="border-color: #3399ff; border-style: solid; background-color: #dbe9f8; border-spacing: 0px;">
+<tr valign="top">
+<td width="698" valign="middle" style="border-width : 0px; padding: 5px;"><p class="rvps2"><span class="rvts6">Folder, View and Asset Names cannot contain URI reserved characters or Unicode characters and must be encoded (per RFC 3986). For example a space in a name must be encoded as '%20'.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">If the specified folder, knowledge view or scratch pad page name does not exist or its name is not unique you will see the following error message:</span><br/><span class="rvts6"></span><br/><img width="536" height="136" alt="" style="padding : 1px;" src="lib/NewItem48.png"></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+<li class="rvps2"><span class="rvts6">If the specified asset name does not exist in the Knowledge View or its name is not unique within the Knowledge View, the application will open the knowledge view but will not zoom to the asset. Instead, the </span><a class="rvts11" href="ContentBrowser.html">Content Browser</a><span class="rvts6">&nbsp;will be expanded and the ambiguous asset name will be added to the </span><a class="rvts11" href="ContentBrowser.html#searchByName">Asset Search</a><span class="rvts6">&nbsp;text box. By clicking into the Asset Search text box, you will be presented with a list of matching assets:</span></li>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><img alt="" style="padding : 1px;" src="lib/NewItem53.png"></p>
+<p class="rvps4"><span class="rvts6"><br/></span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts37">Open Folder Example:</span></p>
+<p class="rvps2"><span class="rvts37"><br/></span></p>
+<div class="rvps2"><table border="1" cellpadding="10" cellspacing="2" style="border-color: #000000; border-style: solid; border-spacing: 2px;">
+<tr valign="top">
+<td width="1017" height="140" valign="middle" style="border-color: #000000; border-style: solid; padding: 10px; border-top: none; border-right: none; border-bottom: none; border-left: none;"><p class="rvps3"><img width="952" height="184" alt="" style="padding : 1px;" src="lib/NewItem47.png"></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">On host </span><span class="rvts39">"</span><span class="rvts38">vsuite.mycompany.com</span><span class="rvts39">"</span><span class="rvts6">&nbsp;open folder location </span><span class="rvts39">"</span><span class="rvts38">Amine Demo &gt; Inspection</span><span class="rvts39">"</span><span class="rvts6">:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<div class="rvps2"><table border="1" cellpadding="6" cellspacing="2" style="border-color: #000000; border-style: solid; border-spacing: 2px;">
+<tr valign="top">
+<td width="892" height="35" style="border-color: #000000; border-style: solid; padding: 6px; border-top: none; border-right: none; border-bottom: none; border-left: none; background-color: #ffff99;"><p class="rvps2"><span class="rvts14">URL:</span><span class="rvts30">&nbsp;</span><span class="rvts6">https://vsuite.mycompany.com/KnowledgeBook/rc/?openfolder=Amine%20Demo_._Inspection</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6">&nbsp;</span></p>
+<p class="rvps2"><span class="rvts37">Open Knowledge View Example:</span></p>
+<p class="rvps2"><span class="rvts14"><br/></span></p>
+<p class="rvps2"><span class="rvts6">On host </span><span class="rvts39">"</span><span class="rvts38">vsuite.mycompany.com</span><span class="rvts39">"</span><span class="rvts6">&nbsp;open Knowledge View </span><span class="rvts39">"</span><span class="rvts38">Inspection Due Status</span><span class="rvts39">"</span><span class="rvts6">&nbsp;in folder location </span><span class="rvts39">"</span><span class="rvts38">Amine Demo &gt; Inspection</span><span class="rvts39">"</span><span class="rvts6">:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<div class="rvps2"><table border="1" cellpadding="6" cellspacing="2" style="border-color: #000000; border-style: solid; border-spacing: 2px;">
+<tr valign="top">
+<td width="1132" height="35" style="border-color: #000000; border-style: solid; padding: 6px; border-top: none; border-right: none; border-bottom: none; border-left: none; background-color: #ffff99;"><p class="rvps2"><span class="rvts14">URL:</span><span class="rvts30">&nbsp;</span><span class="rvts6">https://vsuite.mycompany.com/KnowledgeBook/rc/?openkv=Amine%20Demo_._Inspection_._Inspection%20Due%20Status</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts37"><br/></span></p>
+<p class="rvps2"><span class="rvts37">Open Scratch Pad Page Example:</span></p>
+<p class="rvps2"><span class="rvts14"><br/></span></p>
+<p class="rvps2"><span class="rvts6">On host </span><span class="rvts39">"</span><span class="rvts38">vsuite.mycompany.com</span><span class="rvts39">"</span><span class="rvts6">&nbsp;open Scratch Pad Page </span><span class="rvts39">"</span><span class="rvts38">FIELD NOTES</span><span class="rvts39">"</span><span class="rvts6">&nbsp;in Knowledge View </span><span class="rvts39">"</span><span class="rvts38">Inspection Due Status</span><span class="rvts39">"</span><span class="rvts6">&nbsp;in folder location </span><span class="rvts39">"</span><span class="rvts38">Amine Demo &gt; Inspection</span><span class="rvts39">"</span><span class="rvts6">:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<div class="rvps2"><table border="1" cellpadding="6" cellspacing="2" style="border-color: #000000; border-style: solid; border-spacing: 2px;">
+<tr valign="top">
+<td width="1132" height="35" style="border-color: #000000; border-style: solid; padding: 6px; border-top: none; border-right: none; border-bottom: none; border-left: none; background-color: #ffff99;"><p class="rvps2"><span class="rvts14">URL:</span><span class="rvts30">&nbsp;</span><span class="rvts6">https://vsuite.mycompany.com/KnowledgeBook/rc/?openkv=Amine%20Demo_._Inspection_._Inspection%20Due%20Status&amp;spp=FIELD%20NOTES</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts37">Zoom to Asset Example:</span></p>
+<p class="rvps2"><span class="rvts37"><br/></span></p>
+<p class="rvps2"><span class="rvts6">On host </span><span class="rvts39">"</span><span class="rvts38">vsuite.mycompany.com</span><span class="rvts39">"</span><span class="rvts6">&nbsp;zoom to an asset with name </span><span class="rvts39">"</span><span class="rvts38">TK-0001</span><span class="rvts39">"</span><span class="rvts6">&nbsp;in Knowledge View </span><span class="rvts39">"</span><span class="rvts38">Inspection Due Status</span><span class="rvts39">"</span><span class="rvts6">&nbsp;in folder location </span><span class="rvts39">"</span><span class="rvts38">Amine Demo &gt; Inspection</span><span class="rvts39">"</span><span class="rvts6">:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<div class="rvps2"><table border="1" cellpadding="6" cellspacing="2" style="border-color: #000000; border-style: solid; border-spacing: 2px;">
+<tr valign="top">
+<td width="1282" height="35" style="border-color: #000000; border-style: solid; padding: 6px; border-top: none; border-right: none; border-bottom: none; border-left: none; background-color: #ffff99;"><p class="rvps2"><span class="rvts14">URL:</span><span class="rvts30">&nbsp;</span><span class="rvts6">https://vsuite.mycompany.com/KnowledgeBook/rc/?openkv=Amine%20Demo_._Inspection_._Inspection%20Due%20Status&amp;zoom=TK-0001</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts37"><br/></span></p>
+<p class="rvps2"><span class="rvts37">Zoom to Asset and Type Example:</span></p>
+<p class="rvps2"><span class="rvts37"><br/></span></p>
+<p class="rvps2"><span class="rvts6">On host </span><span class="rvts39">"</span><span class="rvts38">vsuite.mycompany.com</span><span class="rvts39">"</span><span class="rvts6">&nbsp;zoom to an asset with name </span><span class="rvts39">"</span><span class="rvts38">T-0001</span><span class="rvts39">"</span><span class="rvts6">&nbsp;in Knowledge View </span><span class="rvts39">"</span><span class="rvts38">Inspection Due Status</span><span class="rvts39">"</span><span class="rvts6">&nbsp;in folder location </span><span class="rvts39">"</span><span class="rvts38">Amine Demo &gt; Inspection</span><span class="rvts39">"</span><span class="rvts6">. As there are two assets with the name </span><span class="rvts39">"</span><span class="rvts38">T-0001</span><span class="rvts39">"</span><span class="rvts6">, one Equipment and one Equipment Assembly, we're using the optional 'Type' parameter to further identify that we're interested in zooming to an Equipment.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<div class="rvps2"><table border="1" cellpadding="6" cellspacing="2" style="border-color: #000000; border-style: solid; border-spacing: 2px;">
+<tr valign="top">
+<td width="1282" height="35" style="border-color: #000000; border-style: solid; padding: 6px; border-top: none; border-right: none; border-bottom: none; border-left: none; background-color: #ffff99;"><p class="rvps2"><span class="rvts14">URL:</span><span class="rvts30">&nbsp;</span><span class="rvts6">https://vsuite.mycompany.com/KnowledgeBook/rc/?openkv=Amine%20Demo_._Inspection_._Inspection%20Due%20Status&amp;zoom=T-0001&amp;type=Equipment</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts37"><br/></span></p>
+<p class="rvps2"><span class="rvts37">Zoom to Asset with Pickcolor and XRay mode Example:</span></p>
+<p class="rvps2"><span class="rvts37"><br/></span></p>
+<p class="rvps2"><span class="rvts6">On host </span><span class="rvts39">"</span><span class="rvts38">vsuite.mycompany.com</span><span class="rvts39">"</span><span class="rvts6">&nbsp;zoom to an asset with name </span><span class="rvts39">"</span><span class="rvts38">TK-0001</span><span class="rvts39">"</span><span class="rvts6">&nbsp;in Knowledge View </span><span class="rvts39">"</span><span class="rvts38">Inspection Due Status</span><span class="rvts39">"</span><span class="rvts6">&nbsp;in folder location </span><span class="rvts39">"</span><span class="rvts38">Amine Demo &gt; Inspection</span><span class="rvts39">"</span><span class="rvts34">. The asset will be highlighted using a custom (dark red) color. All other assets will be </span><span class="rvts6">displayed using a gray, transparent appearance, resembling an X-ray image.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<div class="rvps2"><table border="1" cellpadding="6" cellspacing="2" style="border-color: #000000; border-style: solid; border-spacing: 2px;">
+<tr valign="top">
+<td width="1282" height="35" style="border-color: #000000; border-style: solid; padding: 6px; border-top: none; border-right: none; border-bottom: none; border-left: none; background-color: #ffff99;"><p class="rvps2"><span class="rvts14">URL:</span><span class="rvts30">&nbsp;</span><span class="rvts6">https://vsuite.mycompany.com/KnowledgeBook/rc/?openkv=Amine%20Demo_._Inspection_._Inspection%20Due%20Status&amp;zoom=TK-0001&amp;pickcolor=8B0000&amp;xray=on</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts37"><br/></span></p>
+<p class="rvps2"><span class="rvts37">Open Knowledge View in a Basic Viewer Example:</span></p>
+<p class="rvps2"><span class="rvts14"><br/></span></p>
+<p class="rvps2"><span class="rvts6">On host </span><span class="rvts39">"</span><span class="rvts38">vsuite.mycompany.com</span><span class="rvts39">"</span><span class="rvts6">&nbsp;open Knowledge View </span><span class="rvts39">"</span><span class="rvts38">Inspection Due Status</span><span class="rvts39">"</span><span class="rvts6">&nbsp;in folder location </span><span class="rvts39">"</span><span class="rvts38">Amine Demo &gt; Inspection</span><span class="rvts39">"</span><span class="rvts6">, using a limited Knowledge View layout:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<div class="rvps2"><table border="1" cellpadding="6" cellspacing="2" style="border-color: #000000; border-style: solid; border-spacing: 2px;">
+<tr valign="top">
+<td width="1132" height="35" style="border-color: #000000; border-style: solid; padding: 6px; border-top: none; border-right: none; border-bottom: none; border-left: none; background-color: #ffff99;"><p class="rvps2"><span class="rvts14">URL:</span><span class="rvts30">&nbsp;</span><span class="rvts6">https://vsuite.mycompany.com/KnowledgeBook/rc/?openkv=Amine%20Demo_._Inspection_._Inspection%20Due%20Status&amp;viewer=basic</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts37"><br/></span></p>
+<p class="rvps2"><span class="rvts37">Open Knowledge View in a Minimal (navigation only) Viewer Example:</span></p>
+<p class="rvps2"><span class="rvts14"><br/></span></p>
+<p class="rvps2"><span class="rvts6">On host </span><span class="rvts39">"</span><span class="rvts38">vsuite.mycompany.com</span><span class="rvts39">"</span><span class="rvts6">&nbsp;open Knowledge View </span><span class="rvts39">"</span><span class="rvts38">Inspection Due Status</span><span class="rvts39">"</span><span class="rvts6">&nbsp;in folder location </span><span class="rvts39">"</span><span class="rvts38">Amine Demo &gt; Inspection</span><span class="rvts39">"</span><span class="rvts6">, using a minimal Knowledge View layout:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<div class="rvps2"><table border="1" cellpadding="6" cellspacing="2" style="border-color: #000000; border-style: solid; border-spacing: 2px;">
+<tr valign="top">
+<td width="1132" height="35" style="border-color: #000000; border-style: solid; padding: 6px; border-top: none; border-right: none; border-bottom: none; border-left: none; background-color: #ffff99;"><p class="rvps2"><span class="rvts14">URL:</span><span class="rvts30">&nbsp;</span><span class="rvts6">https://vsuite.mycompany.com/KnowledgeBook/rc/?openkv=Amine%20Demo_._Inspection_._Inspection%20Due%20Status&amp;viewer=navonly</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts37"><br/></span></p>
+<p></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">Copyright 2023 Visionaize, Inc. All rights reserved.</div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-1.11.3/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+  <script src="vendors/fastclick-1.0.6/fastclick.min.js"></script>
+  <script src="vendors/markjs-8.8.3/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.18.9/uri.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="vendors/bootstrap-3.3.6/js/ie10-viewport-bug-workaround.js"></script>
+  
+  <!-- Headroom -->
+  <script src="vendors/headroom-0.9.3/headroom.min.js"></script>
+  <script src="vendors/headroom-0.9.3/jquery.headroom.min.js"></script>
+
+  <!-- JsTree -->
+  <script src="vendors/jstree-3.3.2/jstree.min.js"></script>
+
+  <!-- HelpNDoc scripts -->
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Scripts -->
+  <script>
+    $(function() {
+      // Instanciate FastClick
+      Origami.fastclick(document.body);
+      // Create the app
+      var app = new Hnd.App();
+      // Update translations
+      hnd_ut(app);
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

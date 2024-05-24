@@ -1,0 +1,43 @@
+{
+  "form": {
+    "ok": "好",
+    "cancel": "取消",
+    "save": "保存",
+    "discard": "丢弃",
+    "yes": "是",
+    "no": "没有"
+  },
+  "msgBox": {
+    "errorId": "错误编号：",
+    "saveChanges": "您有一些未完成的更改。您要保存这些更改吗？",
+    "browserSaveChanges": "您有一些未保存的更改。",
+    "copyLink": "复制链接",
+    "helpLink": "显示帮助"
+  },
+  "error": {
+    "generic": "发生了错误。请与系统管理员联系。"
+  },
+  "message": {
+    "requiredInput": "这是必填栏",
+    "inputNeedsToBeNumber": "该字段的值必须是数字",
+    "inputNeedsToBePositiveNumber": "该字段的值必须是数字正数。",
+    "inputNeedsToBePositiveInteger": "该字段的值必须是数字正整数。",
+    "loading": "正在加载...",
+    "collapse": "坍方",
+    "expand": "扩大",
+    "emptyList": "（空）"
+  },
+  "fluxGrid": {
+    "clear": "明确",
+    "endDate": "结束日期：",
+    "endTime": "时间结束",
+    "filter": "过滤",
+    "filterValue": "筛选值：",
+    "startDate": "开始日期：",
+    "startTime": "开始时间：",
+    "selectOptions": "选择启用的选项："
+  },
+  "grid": {
+    "itemsPerPage": "每页项目"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "header": {
+    "organizationRoles": "組織の役割",
+    "addRole": "組織の役割を追加",
+    "newRole": "新しい組織の役割",
+    "editRole": "組織の役割を編集"
+  },
+  "common": {
+    "roleName": "ロール名",
+    "description": "説明",
+    "actions": "アクション",
+    "enabled": "有効化",
+    "disabled": "無効",
+    "organizationRole": "組織の役割"
+  },
+  "form": {
+    "assignUsers": "ユーザーを割り当てる",
+    "add": "追加する",
+    "userName": "ユーザー名",
+    "userStatus": "ユーザーステータス",
+    "saving": "保存中"
+  },
+  "message": {
+    "confirmDelete": "このロールを削除してもよろしいですか？",
+    "invalidRole": "この役割は既に存在します。もう一度やり直してください。",
+    "emptyRole": "[ロール名]フィールドは空白にできません。もう一度やり直してください。"
+  }
+}

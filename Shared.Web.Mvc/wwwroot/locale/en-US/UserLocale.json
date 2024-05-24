@@ -1,0 +1,11 @@
+﻿{
+    "header": {      
+      "locale": "Locale Preferences"
+    },
+    "form": {        
+        "language": "Language",
+        "datePattern": "Date pattern",
+        "timePattern": "Time pattern",
+        "timeZone": "Time zone"
+    }
+}

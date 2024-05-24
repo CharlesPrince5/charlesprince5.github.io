@@ -1,0 +1,18 @@
+﻿* {
+    font-family: 'Verdana', sans-serif;
+}
+
+body { 
+  background: url("../images/9.jpg")  no-repeat center fixed;    
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.panel-default {opacity: 0.9; margin-top:30px;}
+
+
+.form-group.last { margin-top:15px; }
+.input-group {padding: 10px 0px;}
+.img-rounded{width:18%; padding-bottom:20px;}

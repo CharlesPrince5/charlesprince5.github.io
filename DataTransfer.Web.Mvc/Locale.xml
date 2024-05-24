@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfLocaleEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LocaleEntity>
+	<UserID>D2B6DC42-B933-4023-AE8C-B4DA94872249</UserID>
+    <Language>en-US</Language>
+    <DateFormat>MM/dd/yyyy</DateFormat>
+	<TimeFormat>h:mm:ss tt</TimeFormat>
+	<TimeZoneName>Pacific Standard Time</TimeZoneName>
+  </LocaleEntity>  
+</ArrayOfLocaleEntity>

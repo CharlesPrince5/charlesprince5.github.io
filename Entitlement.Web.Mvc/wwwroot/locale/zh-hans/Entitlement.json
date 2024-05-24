@@ -1,0 +1,43 @@
+{
+  "header": {
+    "entitlement": "权益",
+    "addEntitlement": "添加权利",
+    "newSecurityGroup": "新安全小组",
+    "editSecurityGroup": "编辑安全组"
+  },
+  "grid": {
+    "name": "组名",
+    "description": "描述",
+    "commands": "行动"
+  },
+  "form": {
+    "name": "组名",
+    "description": "描述",
+    "saving": "正在保存...",
+    "permissions": "权限",
+    "users": "用户数",
+    "assignUsers": "分配用户",
+    "addUserName": "加"
+  },
+  "common": {
+    "firstname": "名字",
+    "lastname": "姓",
+    "username": "用户名",
+    "enabled": "已启用",
+    "userStatus": "用户状态",
+    "commands": "行动",
+    "disabled": "残障人士",
+    "securityGroup": "安全组"
+  },
+  "permission": {
+    "name": "权限名称",
+    "enabled": "已启用",
+    "description": "描述"
+  },
+  "message": {
+    "systemSecurityGroupUserNotFound": "系统管理员必须至少分配一个用户。",
+    "confirmDelete": "您确定要删除此安全组吗？",
+    "duplicateUser": "此安全组中已经有以下用户：",
+    "invalidSecurityGroupName": "安全组名称已存在。"
+  }
+}

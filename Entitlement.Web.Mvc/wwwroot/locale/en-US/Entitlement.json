@@ -1,0 +1,46 @@
+﻿{
+  "header": {
+    "entitlement": "Entitlement",
+    "addEntitlement": "Add Entitlement",
+    "newSecurityGroup": "New Security Group",
+    "editSecurityGroup": "Edit Security Group"
+  },
+
+  "grid": {
+    "name": "Group Name",
+    "description": "Description",
+    "commands": "Action"
+  },
+
+  "form": {
+    "name": "Group Name",
+    "description": "Description",
+    "saving": "Saving...",
+    "permissions": "Permissions",
+    "users": "Users",
+    "assignUsers": "Assign Users",
+    "addUserName": "Add"
+  },
+  "common": {
+    "firstname": "First Name",
+    "lastname": "Last Name",
+    "username": "User Name",
+    "enabled": "Enabled",
+    "userStatus": "User Status",
+    "commands": "Action",
+    "disabled": "Disabled",
+    "securityGroup":  "Security Group"
+  },
+  "permission": {
+    "name": "Permission Name",
+    "enabled": "Enabled",
+    "description": "Description"
+  },
+
+    "message": {
+        "systemSecurityGroupUserNotFound": "System Administrator must have at least one user assigned.",
+        "confirmDelete": "Are you sure you want to delete this security group?",
+        "duplicateUser": "The following user(s) are already in this security group: ",
+        "invalidSecurityGroupName": "The security group name already exists."
+    }
+}

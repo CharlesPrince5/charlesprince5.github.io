@@ -1,0 +1,20 @@
+{
+    "Common": {
+        "HostingOptions": {
+            "HostApplicationPath": "/DataTransfer"
+        },
+        "SharedViewsOptions": {
+            "SharedAssemblyPath": "../Shared.Web.Mvc/Shared.Web.Mvc.dll"
+        }
+    },
+    "LocaleServiceOptions": {
+        "XmlFileOpenOptions": {
+            "DocumentPath": "..\\Locale.xml",
+            "Mode": "Open"
+        }
+    },
+    "ConfigOptions": {
+        "FilePath":  "..\\config.json"
+    }
+}
+

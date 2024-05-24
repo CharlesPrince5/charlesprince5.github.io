@@ -1,0 +1,13 @@
+{
+  "ConfigOptions": {
+    "FilePath": "..\\config.json"
+  },
+  "DataLoadSchedulerOptions": {
+    "InitialDelay": 10,
+    "Interval": 30
+  },
+  "LogSyncSchedulerOptions": {
+    "InitialDelay": 10,
+    "Interval": 30
+  }
+}

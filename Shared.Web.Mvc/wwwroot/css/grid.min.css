@@ -1,0 +1,309 @@
+.content-control .e-grid .e-gridheader .e-headercontent .e-columnheader .e-headercell .e-headercelldiv {
+  font-size: 0.9em;
+}
+.content-control .e-grid .e-gridcontent .e-table .e-rowcell {
+  font-size: 1em;
+}
+.grid-groupby-cmd {
+  font-size: 1.5em;
+  padding: 5px 0;
+  text-align: right;
+}
+.grid-groupby-cmd .fa {
+  cursor: pointer;
+  color: #777;
+}
+.grid-groupby-cmd .fa-minus-square {
+  margin-right: 15px;
+}
+.e-grid {
+  border-color: #ceced2;
+  font-size: 14px;
+}
+.e-grid .e-gridheader {
+  border-bottom-color: #ceced2;
+  border-top-color: #ceced2;
+  /*.e-headercontent {
+            border-right-color: @border-color;*/
+  /*}*/
+}
+.e-grid .e-gridheader .e-table {
+  width: 100% !important;
+}
+.e-grid .e-gridheader .e-columnheader .e-grouptopleftcell {
+  background-color: #d9edf7;
+}
+.e-grid .e-gridheader .e-columnheader .e-headercell {
+  vertical-align: middle;
+  border-top-color: #ceced2;
+  border-bottom-color: #ceced2;
+  border-left-color: #ceced2;
+  background-color: #d9edf7;
+}
+.e-grid .e-gridheader .e-columnheader .e-headercell .e-headercelldiv {
+  color: #165b8c;
+  font-size: 1em;
+  font-family: Verdana, Geneva, sans-serif;
+  text-overflow: ellipsis;
+}
+.e-grid .e-gridheader .e-columnheader .e-headercell .e-filtericon {
+  color: #165b8c;
+  margin-top: -21px;
+}
+.e-grid .e-gridcontent .e-table {
+  width: 100% !important;
+}
+.e-grid .e-gridcontent .e-table .e-row.e-hover {
+  background-color: #b5bdcb;
+}
+.e-grid .e-gridcontent .e-table .e-alt_row {
+  background-color: #f9f9f9;
+}
+.e-grid .e-gridcontent .e-table .e-alt_row.e-hover {
+  background-color: #b5bdcb;
+}
+.e-grid .e-gridcontent .e-table .e-rowcell {
+  -moz-user-select: text;
+  -khtml-user-select: text;
+  -webkit-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  border-color: transparent;
+  border-top-color: #ceced2;
+  color: #165b8c;
+  font-size: 1.1em;
+  font-family: Verdana, Geneva, sans-serif;
+  padding: 0.45em 0.6em;
+  text-overflow: ellipsis;
+}
+.e-grid .e-gridcontent .e-table .e-rowcell a {
+  text-decoration: underline;
+}
+.e-grid .e-gridcontent .e-table .e-rowcell .e-button {
+  border: none;
+  padding: 0;
+  text-decoration: none;
+  background: none;
+  width: auto !important;
+  height: auto !important;
+  margin-right: 7px;
+  position: relative;
+  overflow: visible;
+  color: #165b8c;
+}
+.e-grid .e-gridcontent .e-table .e-rowcell .e-button .e-icon {
+  color: #165b8c;
+  padding: 4px;
+}
+.e-grid .e-gridcontent .e-table .e-rowcell .e-button .e-icon.glyphicon {
+  font-family: 'Glyphicons Halflings';
+}
+.e-grid .e-gridcontent .e-table .e-rowcell .e-button + .e-button:before {
+  content: "";
+  border-right: 1px solid #165b8c;
+  height: 23px;
+  position: absolute;
+  transform: translateX(-7px);
+}
+.e-grid .e-pager {
+  background-color: #f3f3f4;
+}
+.e-grid .e-pager .e-numericitem {
+  background: transparent;
+  border-right: none;
+}
+.e-grid .e-pager .e-numericitem:hover {
+  background: transparent;
+}
+.e-grid .e-pager .e-pagercontainer {
+  background-color: #f3f3f4;
+  padding: 0;
+  border: none;
+  display: inline;
+}
+.e-grid .e-pager .e-pagercontainer .e-link.e-numericitem.e-PP {
+  display: none;
+}
+.e-grid .e-pager .e-pagercontainer .e-first,
+.e-grid .e-pager .e-pagercontainer .e-prevpage,
+.e-grid .e-pager .e-pagercontainer .e-firstpage,
+.e-grid .e-pager .e-pagercontainer .e-nextpage,
+.e-grid .e-pager .e-pagercontainer .e-lastpage {
+  height: 17px;
+  display: inline-block;
+  width: 17px;
+  border-radius: 25px;
+  margin: 1px;
+  border: 1px solid #bebec3;
+  padding: 7px;
+  vertical-align: middle;
+  line-height: 17px;
+  text-align: center;
+  background-color: #fff;
+}
+.e-grid .e-pager .e-pagercontainer .e-first:hover,
+.e-grid .e-pager .e-pagercontainer .e-prevpage:hover,
+.e-grid .e-pager .e-pagercontainer .e-firstpage:hover,
+.e-grid .e-pager .e-pagercontainer .e-nextpage:hover,
+.e-grid .e-pager .e-pagercontainer .e-lastpage:hover {
+  background-color: #b6bdca;
+}
+.e-grid .e-pager .e-pagercontainer .e-first.e-disable,
+.e-grid .e-pager .e-pagercontainer .e-prevpage.e-disable,
+.e-grid .e-pager .e-pagercontainer .e-firstpage.e-disable,
+.e-grid .e-pager .e-pagercontainer .e-nextpage.e-disable,
+.e-grid .e-pager .e-pagercontainer .e-lastpage.e-disable {
+  background-color: transparent;
+}
+.e-grid .e-pager .e-pagercontainer .e-first.e-disable:hover,
+.e-grid .e-pager .e-pagercontainer .e-prevpage.e-disable:hover,
+.e-grid .e-pager .e-pagercontainer .e-firstpage.e-disable:hover,
+.e-grid .e-pager .e-pagercontainer .e-nextpage.e-disable:hover,
+.e-grid .e-pager .e-pagercontainer .e-lastpage.e-disable:hover {
+  background-color: #f3f3f4;
+}
+.e-grid .e-pager .e-pagercontainer .e-firstpagedisabled,
+.e-grid .e-pager .e-pagercontainer .e-prevpagedisabled,
+.e-grid .e-pager .e-pagercontainer .e-nextpagedisabled,
+.e-grid .e-pager .e-pagercontainer .e-lastpagedisabled {
+  height: 17px;
+  display: inline-block;
+  width: 17px;
+  border-radius: 25px;
+  margin: 1px;
+  border: 1px solid #bebec3;
+  padding: 7px;
+  vertical-align: middle;
+  line-height: 17px;
+  text-align: center;
+  background-color: #fff;
+  background-color: #ccc;
+}
+.e-grid .e-pager .e-pagercontainer .e-numericcontainer .e-numericitem {
+  height: 17px;
+  display: inline-block;
+  width: 17px;
+  border-radius: 25px;
+  margin: 1px;
+  border: 1px solid #bebec3;
+  padding: 7px;
+  vertical-align: middle;
+  line-height: 17px;
+  text-align: center;
+  background-color: #fff;
+  height: 23px;
+  width: 23px;
+  line-height: 22px;
+  padding: 4px;
+  border-color: transparent;
+  background-color: transparent;
+}
+.e-grid .e-pager .e-pagercontainer .e-numericcontainer .e-numericitem.e-currentitem {
+  background-color: #67b2e8;
+}
+.e-grid .e-pager .e-parentmsgbar {
+  height: 35px;
+  padding: 0;
+  line-height: 34px;
+  padding-right: 0.7em;
+  font-size: 1.1em;
+  font-family: Verdana, Geneva, sans-serif;
+}
+.e-grid .e-pager .rg-pagesizes {
+  vertical-align: middle;
+  margin-left: 10px;
+}
+.e-grid .e-pager .rg-pagesizes select {
+  background-image: linear-gradient(45deg, transparent 50%, gray 50%), linear-gradient(135deg, gray 50%, transparent 50%), linear-gradient(to right, #ccc, #ccc);
+  background-position: calc(100% - 16px) calc(1em + 2px), calc(100% - 11px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
+  background-size: 5px 5px, 5px 5px, 1px 1.5em;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  border: 1px solid #a9a9a9;
+  display: inline-block;
+  font: inherit;
+  line-height: 1.5em;
+  padding: 0.5em 3.5em 0.5em 1em;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  margin-right: 10px;
+}
+/*----------------------- Grid (kendo ui grid overrides) ---------------------------*/
+.k-grid td {
+  border-width: 0 0 1px;
+  border-left: 1px solid transparent;
+}
+.k-grid tr {
+  color: #165b8c;
+}
+.k-grid tr.k-state-selected {
+  color: #fff;
+  background-color: #1984c8;
+  border-color: #1984c8;
+}
+.k-grid .k-alt {
+  background-color: #f9f9f9;
+}
+.k-grid-header-wrap .k-header {
+  color: #165b8c !important;
+  font-weight: bold !important;
+  background-color: #d9edf7 !important;
+}
+.k-grid-header-wrap .k-i-arrow-n {
+  margin-top: 2px;
+}
+.k-grid-header-wrap .k-i-arrow-s {
+  margin-top: 2px;
+}
+.grid-button {
+  cursor: pointer;
+}
+.grid-button:hover {
+  color: #23527c;
+  text-decoration: underline;
+}
+.grid-button-edit {
+  cursor: pointer;
+}
+.grid-button-edit:hover {
+  color: #23527c;
+  text-decoration: underline;
+}
+.grid-button-run {
+  cursor: pointer;
+}
+.grid-button-run:hover {
+  color: #23527c;
+  text-decoration: underline;
+}
+.button-disabled {
+  cursor: none;
+  pointer-events: none;
+}
+.grid-button-disabled {
+  cursor: none;
+  pointer-events: none;
+}
+.k-grid-content {
+  overflow-y: hidden;
+  padding-right: 0 !important;
+}
+.k-grid-header {
+  padding-right: 0 !important;
+}
+.k-grid-header .k-header > .k-link {
+  color: #165b8c !important;
+}
+.k-pager-numbers .k-state-selected {
+  border-color: transparent;
+  border-radius: 20px;
+  background-color: #67b2e8;
+}
+.k-header > .k-header-column-menu {
+  margin: -0.4em -0.5em;
+}
+/*-------------------------End Grid---------------------------------*/

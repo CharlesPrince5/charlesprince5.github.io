@@ -1,0 +1,28 @@
+﻿{
+  "files": [
+    {
+      "variableName": "Viewer2d",
+      "basePath": "..\\..\\..\\Client.Web\\src\\viewer.web.client",
+      "jsOut": "bin\\js-out\\main\\Viewer3d",
+      "workerFile": "Viewer2D.js"
+    },
+    {
+      "variableName": "Viewer2DManager",
+      "basePath": "..\\..\\..\\Client.Web\\src\\viewer.web.client",
+      "jsOut": "bin\\js-out\\main\\manager",
+      "workerFile": "Viewer2DManager.js"
+    },
+    {
+      "variableName": "Viewer2DEnums",
+      "basePath": "..\\..\\..\\Client.Web\\src\\viewer.web.client",
+      "jsOut": "bin\\js-out\\main\\constants",
+      "workerFile": "Viewer2DEnums.js"
+    },
+    {
+      "variableName": "Viewer2DEvents",
+      "basePath": "..\\..\\..\\Client.Web\\src\\viewer.web.client",
+      "jsOut": "bin\\js-out\\main\\constants",
+      "workerFile": "Viewer2DEvents.js"
+    }
+  ]
+}

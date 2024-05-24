@@ -1,0 +1,28 @@
+{
+  "header": {
+    "organizationRoles": "组织角色",
+    "addRole": "添加组织角色",
+    "newRole": "新组织角色",
+    "editRole": "编辑组织角色"
+  },
+  "common": {
+    "roleName": "角色名称",
+    "description": "描述",
+    "actions": "行动",
+    "enabled": "已启用",
+    "disabled": "残障人士",
+    "organizationRole": "组织角色"
+  },
+  "form": {
+    "assignUsers": "分配用户",
+    "add": "加",
+    "userName": "用户名",
+    "userStatus": "用户状态",
+    "saving": "正在保存..."
+  },
+  "message": {
+    "confirmDelete": "您确定要删除此角色吗？",
+    "invalidRole": "该角色已经存在。请再试一遍。",
+    "emptyRole": "角色名称字段不能为空。请再试一遍。"
+  }
+}

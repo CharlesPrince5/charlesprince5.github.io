@@ -1,0 +1,28 @@
+{
+  "breadcrumb": {
+    "root": "组织"
+  },
+  "header": {
+    "organization": "组织访问权限"
+  },
+  "form": {
+    "header": "分配角色",
+    "saving": "正在保存...",
+    "rolesDescription": "角色用于授予用户对不同组织和项目的访问权限",
+    "availableRoles": "可用角色",
+    "assignedRoles": "分配的角色"
+  },
+  "table": {
+    "action": "行动",
+    "project": "项目",
+    "workspace": "工作空间"
+  },
+  "common": {
+    "organizationName": "项目",
+    "workspace": "工作空间",
+    "roles": "的角色"
+  },
+  "error": {
+    "inheritedRole": "从项目继承的角色不能从工作空间中取消分配。"
+  }
+}

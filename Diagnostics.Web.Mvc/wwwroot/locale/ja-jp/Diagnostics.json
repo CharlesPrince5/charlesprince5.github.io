@@ -1,0 +1,57 @@
+{
+  "header": {
+    "diagnostics": "システムログ",
+    "formDiagnostics": "診断の詳細",
+    "formAudit": "監査の詳細"
+  },
+  "grid": {
+    "level": "レベル",
+    "date": "日付",
+    "time": "時間",
+    "messageID": "メッセージID",
+    "caption": "キャプション",
+    "message": "メッセージ",
+    "description": "説明",
+    "hostName": "ホスト名",
+    "sessionID": "セッションID",
+    "source": "ソース",
+    "service": "サービス",
+    "clientIP": "クライアントIP",
+    "clientUser": "クライアントユーザー名",
+    "initiatedby": "により開始される",
+    "version": "バージョン",
+    "exception": "例外データ",
+    "details": "詳細",
+    "detail": "詳細",
+    "audit": "監査",
+    "diagnostics": "診断"
+  },
+  "filter": {
+    "filter": "フィルタ",
+    "dataTransfer": "データ転送のみ",
+    "clear": "フィルターをリセット",
+    "refresh": "リフレッシュ",
+    "export": "書き出す"
+  },
+  "form": {
+    "messageID": "メッセージID：",
+    "message": "メッセージ:",
+    "caption": "キャプション：",
+    "detail": "詳細:",
+    "level": "レベル：",
+    "sessionID": "セッションID：",
+    "hostName": "ホスト名：",
+    "source": "ソース：",
+    "clientIP": "クライアントIP：",
+    "date": "日付：",
+    "userName": "ユーザー名：",
+    "version": "バージョン：",
+    "exceptionData": "例外データ",
+    "time": "時間：",
+    "service": "サービス：",
+    "Ok": "OK",
+    "details": "詳細",
+    "description": "説明：",
+    "notApplicable": "なし"
+  }
+}

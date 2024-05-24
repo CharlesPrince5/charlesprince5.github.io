@@ -1,0 +1,59 @@
+﻿{
+  "header": {
+    "diagnostics": "System Logs",
+    "formDiagnostics": "Diagnostics Details",
+    "formAudit": "Audit Details"
+  },
+  "grid": {
+    "level": "Level",
+    "date": "Date",
+    "time": "Time",
+    "messageID": "Message ID",
+    "message": "Message",
+    "caption": "Caption",
+    "description": "Description",
+    "hostName": "Host Name",
+    "sessionID": "Session ID",
+    "source": "Source",
+    "service": "Service",
+    "clientIP": "Client IP",
+    "clientUser": "Client User Name",
+    "initiatedby": "Initiated by",
+    "version": "Version",
+    "exception": "Exception Data",
+    "details": "Details",
+    "detail": "Detail",
+    "audit": "Audit",
+    "diagnostics": "Diagnostics"
+  },
+  "filter": {
+    "filter": "Filter",
+    "dataTransfer": "Data Transfer Only",
+    "exportToCSV": "Export CSV",
+    "clear": "Reset Filters",
+    "refresh": "Refresh",
+    "export": "Export"
+  },
+  "form": {
+    "messageID": "Message ID:",
+    "message": "Message:",
+    "caption": "Caption:",
+    "detail": "Detail:",
+    "level": "Level:",
+    "sessionID": "Session ID:",
+    "hostName": "Host Name:",
+    "source": "Source:",
+    "clientIP": "Client IP:",
+    "date": "Date:",
+    "userName": "User Name:",
+    "version": "Version:",
+    "exceptionData": "Exception Data",
+    "time": "Time:",
+    "service": "Service:",
+    "Ok": "OK",
+    "details": "Details",
+    "description": "Description:",
+    "notApplicable": "N/A"
+
+  }
+}

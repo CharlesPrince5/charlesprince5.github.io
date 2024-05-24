@@ -1,0 +1,34 @@
+{
+  "header": {
+    "account": "マイアカウント",
+    "locale": "私のロケール"
+  },
+  "form": {
+    "ok": "OK",
+    "cancel": "キャンセル",
+    "resetPassword": "パスワードを変更する",
+    "password": "パスワード",
+    "oldPassword": "以前のパスワード",
+    "newPassword": "新しいパスワード",
+    "confirmPassword": "新しいパスワードを確認",
+    "passwordMustMatch": "パスワードが一致する必要があります。",
+    "changePassword": "変化する",
+    "changePasswordHeader": "パスワードを変更する",
+    "passwordExpired": "パスワードが期限切れです",
+    "updateProfile": "更新",
+    "cannotBeSamePassword": "新しいパスワードを古いパスワードと同じにすることはできません。",
+    "language": "言語",
+    "datePattern": "日付パターン",
+    "timePattern": "時間パターン",
+    "timeZone": "タイムゾーン"
+  },
+  "common": {
+    "firstname": "ファーストネーム",
+    "lastname": "苗字",
+    "username": "ユーザー名",
+    "email": "電子メールアドレス",
+    "activeDirectoryName": "Windowsユーザー名",
+    "azureUsername": "Azure AD アカウントのユーザー名",
+    "adfsUsername": "ADFS アカウントのユーザー名"
+  }
+}

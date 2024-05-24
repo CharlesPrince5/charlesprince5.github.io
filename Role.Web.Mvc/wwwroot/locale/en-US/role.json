@@ -1,0 +1,28 @@
+﻿{
+  "header": {
+    "organizationRoles": "Organization Roles",
+    "addRole": "Add Organization Role",
+    "newRole": "New Organization Role",
+    "editRole":  "Edit Organization Role"
+  },
+  "common": {
+    "roleName": "Role Name",
+    "description": "Description",
+    "actions":  "Action",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "organizationRole": "Organization Role"
+  },
+  "form": {
+    "assignUsers": "Assign Users",
+    "add": "Add",
+    "userName": "User Name",
+    "userStatus": "User Status",
+    "saving":  "Saving..."
+  },
+  "message": {
+    "confirmDelete": "Are you sure you want to delete this role?",
+    "invalidRole": "This role already exists. Please try again.",
+    "emptyRole": "Role Name field cannot be blank. Please try again."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "form": {
+    "ok": "OK",
+    "cancel": "キャンセル",
+    "save": "セーブ",
+    "discard": "捨てる",
+    "yes": "はい",
+    "no": "いや"
+  },
+  "msgBox": {
+    "errorId": "エラーID：",
+    "saveChanges": "保留中の変更がいくつかあります。これらの変更を保存しますか？",
+    "browserSaveChanges": "未保存の変更がいくつかあります。",
+    "copyLink": "リンクをコピーする",
+    "helpLink": "ヘルプを表示"
+  },
+  "error": {
+    "generic": "エラーが発生しました。システム管理者に連絡してください。"
+  },
+  "message": {
+    "requiredInput": "この項目は必須です",
+    "inputNeedsToBeNumber": "このフィールドの値は数値である必要があります",
+    "inputNeedsToBePositiveNumber": "このフィールドの値は、正の数値である必要があります。",
+    "inputNeedsToBePositiveInteger": "このフィールドの値は、正の整数である必要があります。",
+    "loading": "読み込み中",
+    "collapse": "崩壊",
+    "expand": "展開する",
+    "emptyList": "（空の）"
+  },
+  "fluxGrid": {
+    "clear": "クリア",
+    "endDate": "終了日：",
+    "endTime": "終了時間",
+    "filter": "フィルタ",
+    "filterValue": "フィルター値：",
+    "startDate": "開始日：",
+    "startTime": "始まる時間：",
+    "selectOptions": "有効なオプションを選択："
+  },
+  "grid": {
+    "itemsPerPage": "ページごとのアイテム"
+  }
+}

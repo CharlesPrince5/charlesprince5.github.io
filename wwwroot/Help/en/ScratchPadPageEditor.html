@@ -1,0 +1,456 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 6.0.0.154">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Scratch Pad Page Editor</title>
+  <meta name="description" content="" /> 
+  <meta name="keywords" content="">
+
+
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Scratch Pad Page Editor">
+  <meta name="twitter:description" content="">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Scratch Pad Page Editor" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="" />
+  <meta property="og:site_name" content="V-Suite Web R4" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.3.6/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.2/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.2/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-dark-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded #main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+  <link href="css/header.css" rel="stylesheet" />
+
+  
+
+
+<style type='text/css'>
+.header-item-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.header-item a {
+color: rgb(238, 238, 238);
+text-decoration: none;
+}
+.header-item a:hover {
+text-decoration: underline;
+}
+</style>
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+ 
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>V-Suite Web R4</h1>
+    <a href="https://visionaize.com" target="_blank" <p class="rvps1"><img alt="" align="middle" style="padding: 1px; height: 30px;" src="images/logoheaderSolid.png"></p></a>
+     
+  </header>
+
+  <nav class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="ScratchPadPageEditor"
+		  data-hnd-context="85"
+		  data-hnd-title="Scratch Pad Page Editor"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="KnowledgeBook.html">Knowledge Book</a></li><li><a href="KnowledgeBookViewer.html">Knowledge Book Viewer</a></li><li><a href="ScratchPad.html">Scratch Pad</a></li><li><a href="EditaScratchPadPage.html">Edit a Scratch Pad Page </a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group-xs" role="group"><a class="btn btn-default" href="EditaScratchPadPage.html" title="Edit a Scratch Pad Page " role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="EditaScratchPadPage.html" title="Edit a Scratch Pad Page " role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="DeleteaScratchPadPage.html" title="Delete a Scratch Pad Page " role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Scratch Pad Page Editor</h2>
+
+            <div class="main-content">
+                
+<p></p>
+<p class="rvps2"><span class="rvts6">The scratch pad page editor lets you edit existing or new scratch pad pages. </span><br/><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img width="805" height="435" alt="" style="padding : 1px;" src="lib/ScratchPadEditor_UIOverview.png"></p>
+<h1 class="rvps7"><span class="rvts0"><span class="rvts28">Scratch Pad Page Header Toolbar </span></span></h1>
+<p class="rvps2"><span class="rvts6">The scratch pad page header toolbar has the following functions: </span></p>
+<div class="rvps2"><table width="90%" border="1" cellpadding="7" cellspacing="-1" style="border-width: 0px; border-collapse: collapse;">
+<tr valign="top">
+<td width="130" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><img alt="" style="padding : 1px;" src="lib/ScratchPadEditor_Save.png"></p>
+</td>
+<td width="951" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><span class="rvts29">Save</span><span class="rvts6">&nbsp;- Saves the scratch pad page. </span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="130" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><img alt="" style="padding : 1px;" src="lib/ScratchPadEditor_Download.png"></p>
+</td>
+<td width="951" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><span class="rvts29">Download</span><span class="rvts6">&nbsp;- Download the scratch pad page with it's current annotations. The page can be downloaded into a </span><span class="rvts29">PNG</span><span class="rvts6">&nbsp;image or into a </span><span class="rvts14">PDF</span><span class="rvts6">&nbsp;document. The layout of the exported PDF document can be customized using the </span><a class="rvts11" href="SearchKnowledgeBook.html#ExportToPdfOptions">Export to PDF options</a><span class="rvts6">&nbsp;form.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="130" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><img alt="" style="padding : 1px;" src="lib/ScratchPadEditor_GoTo3D.png"></p>
+</td>
+<td width="951" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><span class="rvts29">Go to 3D</span><span class="rvts6">&nbsp;- Closes the scratch pad page and changes the Knowledge Book viewer's view to same position where the scratch pad page was created.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="130" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><img width="34" height="34" alt="" style="padding : 1px;" src="lib/undo.png"></p>
+</td>
+<td width="951" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><span class="rvts29">Undo - </span><span class="rvts6">Undo annotation creation, modification or deletion action.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="130" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><img width="34" height="34" alt="" style="padding : 1px;" src="lib/redo.png"></p>
+</td>
+<td width="951" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><span class="rvts29">Redo - </span><span class="rvts6">Redo</span><span class="rvts29">&nbsp;</span><span class="rvts6">annotation creation, modification or deletion action. You can only redo an action after you have undone an action.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="130" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><img alt="" style="padding : 1px;" src="lib/ScratchPadEditor_Name.png"></p>
+</td>
+<td width="951" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><span class="rvts29">Scratch Pad Page Name</span><span class="rvts6">&nbsp;- The name of the scratch pad page. &nbsp;The name cannot be empty. </span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="130" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><img alt="" style="padding : 1px;" src="lib/ScratchPadEditor_ChangeHistory.png"></p>
+</td>
+<td width="951" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><span class="rvts29">View Change History</span><span class="rvts6">&nbsp;- Displays a dialog box that shows when was the scratch pad page created and by whom. &nbsp;Also shows when the scratch pad page was last modified and by whom. </span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="130" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><img alt="" style="padding : 1px;" src="lib/ScratchPadEditor_Exit.png"></p>
+</td>
+<td width="951" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><span class="rvts29">Exit</span><span class="rvts6">&nbsp;- Exits the scratch pad page, navigating back to the previously opened page.</span></p>
+</td>
+</tr>
+</table>
+</div>
+<h1 class="rvps7"><span class="rvts0"><span class="rvts28">Scratch Pad Page Draw Mode Toolbar</span></span></h1>
+<p class="rvps2"><span class="rvts6">The scratch pad page draw mode toolbar has the following functions: </span></p>
+<div class="rvps2"><table width="90%" border="1" cellpadding="7" cellspacing="-1" style="border-width: 0px; border-collapse: collapse;">
+<tr valign="top">
+<td width="130" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><img alt="" style="padding : 1px;" src="lib/ScratchPadEditor_Selection.png"></p>
+</td>
+<td width="951" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><span class="rvts29">Selection</span><span class="rvts6">&nbsp;- Default mode when starting up the editor. Used to select annotations that are already created. </span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="130" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><img alt="" style="padding : 1px;" src="lib/ScratchPadEditor_FreeDraw.png"></p>
+</td>
+<td width="951" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><span class="rvts29">Free Draw</span><span class="rvts6">&nbsp;- Allows you to freely draw lines. &nbsp;This mode allows continuous drawing. </span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="130" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><img alt="" style="padding : 1px;" src="lib/ScratchPadEditor_Text.png"></p>
+</td>
+<td width="951" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><span class="rvts29">Text</span><span class="rvts6">&nbsp;- Allows you to create text. &nbsp;Once the text is created, the mode will be switched to selection. </span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="130" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><img alt="" style="padding : 1px;" src="lib/ScratchPadEditor_Rectangle.png"></p>
+</td>
+<td width="951" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><span class="rvts29">Rectangle</span><span class="rvts6">&nbsp;- Allows you to create rectangles. &nbsp;Once the rectangle is created, the mode will be switched to selection. </span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="130" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><img alt="" style="padding : 1px;" src="lib/ScratchPadEditor_Ellipse.png"></p>
+</td>
+<td width="951" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><span class="rvts29">Ellipse</span><span class="rvts6">&nbsp;- Allows you to create ellipses . &nbsp;Once the ellipse is created, the mode will be switched to selection. </span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="130" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><img alt="" style="padding : 1px;" src="lib/ScratchPadEditor_Arrow.png"></p>
+</td>
+<td width="951" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><span class="rvts29">Arrow</span><span class="rvts6">&nbsp;- Allows you to create arrows. &nbsp;Once the arrow is created, the mode will be switched to selection. </span></p>
+</td>
+</tr>
+</table>
+</div>
+<h1 class="rvps7"><span class="rvts0"><span class="rvts28">Scratch Pad Page View Properties Toolbar</span></span></h1>
+<p class="rvps2"><span class="rvts6">The scratch pad page view properties toolbar has the following functions: </span></p>
+<div class="rvps2"><table width="90%" border="1" cellpadding="7" cellspacing="-1" style="border-width: 0px; border-collapse: collapse;">
+<tr valign="top">
+<td width="130" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem52.png"></p>
+</td>
+<td width="951" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><span class="rvts29">Zoom</span><span class="rvts6">&nbsp;- Lets you </span><a class="rvts11" href="ScratchPadPageEditor.html#Zoom">zoom</a><span class="rvts6">&nbsp;in/out on the scratch pad page. The zoom is done via a slider, which appears after clicking this function.</span></p>
+</td>
+</tr>
+</table>
+</div>
+<h1 class="rvps7"><span class="rvts0"><span class="rvts28">Scratch Pad Page Edit Toolbar </span></span></h1>
+<p class="rvps2"><span class="rvts6">The scratch pad page edit toolbar has the following functions: </span></p>
+<div class="rvps2"><table width="90%" border="1" cellpadding="7" cellspacing="-1" style="border-width: 0px; border-collapse: collapse;">
+<tr valign="top">
+<td width="130" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><img alt="" style="padding : 1px;" src="lib/ScratchPadEditor_FontFamlily.png"></p>
+</td>
+<td width="951" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><span class="rvts29">Font Family </span><span class="rvts6">- Allows you to choose what font to use. &nbsp;The default is Times New Roman. </span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="130" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><img alt="" style="padding : 1px;" src="lib/ScratchPadEditor_TextColor.png"></p>
+</td>
+<td width="951" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><span class="rvts29">Font Color</span><span class="rvts6">&nbsp;- Allows you to modify the color of the text. The default is red. </span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="130" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><img alt="" style="padding : 1px;" src="lib/ScratchPadEditor_Textsize.png"></p>
+</td>
+<td width="951" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><span class="rvts29">Text Size </span><span class="rvts6">- Allows you to change the size of the text. &nbsp;The default is 30. &nbsp;Max value is 100. h</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="130" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><img alt="" style="padding : 1px;" src="lib/ScratchPadEditor_Italic.png"></p>
+</td>
+<td width="951" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><span class="rvts29">Italic</span><span class="rvts6">&nbsp;- Allows you to change the text to italic. </span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="130" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><img alt="" style="padding : 1px;" src="lib/ScratchPadEditor_Bold.png"></p>
+</td>
+<td width="951" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><span class="rvts29">Bold</span><span class="rvts6">&nbsp;- Allows you to change the text to bold. </span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="130" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><img alt="" style="padding : 1px;" src="lib/ScratchPadEditor_TextAlignment.png"></p>
+</td>
+<td width="951" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><span class="rvts29">Text Alignment</span><span class="rvts6">&nbsp;- Allows you to change the alignment of the text to </span><span class="rvts29">Right</span><span class="rvts6">, </span><span class="rvts29">Left</span><span class="rvts6">, </span><span class="rvts29">Center</span><span class="rvts6">, </span><span class="rvts29">Justified</span><span class="rvts6">. &nbsp;The default value is left. </span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="130" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><img alt="" style="padding : 1px;" src="lib/ScratchPadEditor_FillColor.png"></p>
+</td>
+<td width="951" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><span class="rvts29">Fill Color</span><span class="rvts6">&nbsp;- Allows you to change the color of the background for text blocks and shapes. &nbsp;The default color is transparent. </span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="130" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><img alt="" style="padding : 1px;" src="lib/ScratchPadEditor_DrawColor.png"></p>
+</td>
+<td width="951" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><span class="rvts29">Line Color</span><span class="rvts6">&nbsp;- Allows you to change the color of the border for shapes or the color of the line for the arrow and free draw mode. &nbsp;The default value is red. </span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="130" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><img alt="" style="padding : 1px;" src="lib/ScratchPadEditor_DrawSize.png"></p>
+</td>
+<td width="951" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 7px;"><p class="rvps2"><span class="rvts29">Line Width</span><span class="rvts6">&nbsp;- Allows you to change the size of the border of the shapes or the width of the line for the arrow and free draw mode.&nbsp; The default value is 2.&nbsp; The maximum value is 10.&nbsp;</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<div class="rvps2"><table width="500" border="1" cellpadding="5" cellspacing="0" style="border-color: #3399ff; border-style: solid; background-color: #dbe9f8; border-spacing: 0px;">
+<tr valign="top">
+<td valign="middle" style="border-width : 0px; padding: 5px;"><p class="rvps2"><span class="rvts6">Changing the values of the options when there are no annotations selected will change the default values. &nbsp;Changing the value when there are annotation(s) selected will only modify the selected annotation(s). </span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">See Also: </span><a class="rvts11" href="Preferences.html#ScratchPadPreferences">Scratch Pad Preferences</a></p>
+<h1 class="rvps7"><span class="rvts0"><span class="rvts28">Zoom</span></span></h1>
+<p class="rvps2"><a name="Zoom"></a>
+<span class="rvts6">The zoom function facilitates drawing detailed annotations on the scratch pad page. The range of the zoom function is from 100% (default view) to 400%.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Besides using the zoom slider control, you can also use your mouse or touch screen to zoom in/out:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts14">Mouse</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;"><ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+<li class="rvps2"><span class="rvts6">Use the </span><span class="rvts29">scroll wheel</span><span class="rvts6">&nbsp;to zoom in/out.</span></li>
+<li class="rvps2"><span class="rvts6">Hold the </span><span class="rvts29">middle mouse button</span><span class="rvts6">&nbsp;while moving your mouse to pan a zoomed-in view.</span></li>
+</ul></ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts14">Touch Screen</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;"><ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+<li class="rvps2"><span class="rvts6">Use the </span><span class="rvts29">Two Finger - Pinch Out</span><span class="rvts6">&nbsp;gesture to zoom in and </span><span class="rvts29">Two Finger - Pinch In</span><span class="rvts6">&nbsp;gesture to zoom out.</span></li>
+<li class="rvps2"><span class="rvts6">Use the </span><span class="rvts29">Two Finger - Swipe</span><span class="rvts6">&nbsp;gesture to pan a zoomed-in view.</span></li>
+<li class="rvps2"><span class="rvts6">See the </span><a class="rvts11" href="ViewerNavigation.html">Viewer Navigation</a><span class="rvts6">&nbsp;page for details about touch screen gestures.</span></li>
+</ul></ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">Copyright 2023 Visionaize, Inc. All rights reserved.</div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-1.11.3/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+  <script src="vendors/fastclick-1.0.6/fastclick.min.js"></script>
+  <script src="vendors/markjs-8.8.3/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.18.9/uri.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="vendors/bootstrap-3.3.6/js/ie10-viewport-bug-workaround.js"></script>
+  
+  <!-- Headroom -->
+  <script src="vendors/headroom-0.9.3/headroom.min.js"></script>
+  <script src="vendors/headroom-0.9.3/jquery.headroom.min.js"></script>
+
+  <!-- JsTree -->
+  <script src="vendors/jstree-3.3.2/jstree.min.js"></script>
+
+  <!-- HelpNDoc scripts -->
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Scripts -->
+  <script>
+    $(function() {
+      // Instanciate FastClick
+      Origami.fastclick(document.body);
+      // Create the app
+      var app = new Hnd.App();
+      // Update translations
+      hnd_ut(app);
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

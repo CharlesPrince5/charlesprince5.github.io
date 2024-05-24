@@ -1,0 +1,20 @@
+{
+  "header": {
+    "license": "ライセンス"
+  },
+  "grid": {
+    "name": "名",
+    "value": "値",
+    "startDate": "開始日",
+    "expiration": "有効期限",
+    "company": "会社名",
+    "purchaseOrder": "注文書",
+    "licenseKeyId": "ライセンスキーID"
+  },
+  "form": {
+    "newLicense": "新しいライセンス",
+    "addKey": "ライセンスを追加",
+    "saving": "保存中",
+    "licenseKey": "ライセンスキー"
+  }
+}

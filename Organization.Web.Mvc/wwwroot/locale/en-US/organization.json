@@ -1,0 +1,28 @@
+﻿{
+    "breadcrumb": {
+        "root": "Organization"
+    },
+    "header": {
+        "organization": "Organization Access Rights"
+    },
+    "form": {
+        "header": "Assign Roles",
+        "saving":  "Saving...",
+        "rolesDescription":  "Roles are used to grant users access rights to different organizations and projects",
+        "availableRoles": "Available Roles",
+        "assignedRoles": "Assigned Roles"
+    },
+    "table": {
+        "action": "Action",
+        "project": "Project",
+        "workspace": "Workspace"
+    },
+    "common": {
+        "organizationName": "Project",
+        "workspace": "Workspace",
+        "roles": "Roles"
+    },
+    "error": {
+      "inheritedRole":  "Roles that are inherited from a project cannot be unassigned from a workspace."
+    }
+}

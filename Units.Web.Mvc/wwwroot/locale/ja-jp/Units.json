@@ -1,0 +1,11 @@
+{
+  "header": {
+    "units": "測定単位"
+  },
+  "table": {
+    "project": "プロジェクト",
+    "type": "タイプ",
+    "unit": "単位",
+    "precision": "精度"
+  }
+}

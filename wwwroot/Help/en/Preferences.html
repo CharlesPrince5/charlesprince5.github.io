@@ -1,0 +1,427 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Standard Edition 6.0.0.154">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Preferences</title>
+  <meta name="description" content="" /> 
+  <meta name="keywords" content="">
+
+
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Preferences">
+  <meta name="twitter:description" content="">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Preferences" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="" />
+  <meta property="og:site_name" content="V-Suite Web R4" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.3.6/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.2/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.2/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-dark-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded #main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+  <link href="css/header.css" rel="stylesheet" />
+
+  
+
+
+<style type='text/css'>
+.header-item-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.header-item a {
+color: rgb(238, 238, 238);
+text-decoration: none;
+}
+.header-item a:hover {
+text-decoration: underline;
+}
+</style>
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+ 
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>V-Suite Web R4</h1>
+    <a href="https://visionaize.com" target="_blank" <p class="rvps1"><img alt="" align="middle" style="padding: 1px; height: 30px;" src="images/logoheaderSolid.png"></p></a>
+     
+  </header>
+
+  <nav class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="Preferences"
+		  data-hnd-context="86"
+		  data-hnd-title="Preferences"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="KnowledgeBook.html">Knowledge Book</a></li><li><a href="KnowledgeBookViewer.html">Knowledge Book Viewer</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group-xs" role="group"><a class="btn btn-default" href="KnowledgeBookViewer.html" title="Knowledge Book Viewer" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="Routes.html" title="Routes" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="BubbleViewer.html" title="Bubble Viewer" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Preferences</h2>
+
+            <div class="main-content">
+                
+<p></p>
+<p class="rvps2"><span class="rvts6">The Knowledge Book application lets you store Knowledge Book preferences.</span><br/><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem7.png"></p>
+<p class="rvps2"><span class="rvts6">In the Knowledge Book application click on your user profile and click on </span><span class="rvts29">My Preferences</span><span class="rvts6">&nbsp;to modify Knowledge Book preferences. These preferences are stored with your user profile and will be applied irrelevant of which internet browser or computer you are using.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem6.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<h1 class="rvps7"><a name="ViewerPreferences"></a>
+<span class="rvts0"><span class="rvts28">Viewer Preferences</span></span></h1>
+<p class="rvps2"><span class="rvts6">Expand the </span><span class="rvts29">Viewer Preferences</span><span class="rvts6">&nbsp;accordion to modify your viewer preferences.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<div class="rvps2"><table border="1" cellpadding="8" cellspacing="-1" style="border-width: 0px; border-collapse: collapse;">
+<tr valign="top">
+<td width="167" valign="middle" style="border-width : 1px; border-color: #333333; border-style: solid; padding: 8px; background-color: #002856;"><p class="rvps2"><span class="rvts12">Viewer Preference</span></p>
+</td>
+<td width="714" valign="middle" style="border-width : 1px; border-color: #333333; border-style: solid; padding: 8px; background-color: #002856;"><p class="rvps2"><span class="rvts12">Function&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="167" valign="top" style="border-width : 1px; border-color: #333333; border-style: solid; padding: 8px; background-color: #e0e0e0;"><p class="rvps2"><span class="rvts14">Canvas Margin</span></p>
+</td>
+<td width="714" valign="middle" style="border-width : 1px; border-color: #333333; border-style: solid; padding: 8px;"><p class="rvps2"><span class="rvts6">Sets the viewer's margin mode:&nbsp;&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;"><ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts29">Fit </span><span class="rvts6">- The margin of the viewer will fit into the browser window. Depending on the size of the window, the viewer will either align with the left/right margin or the top/bottom.&nbsp;</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts29">Fill</span><span class="rvts6">&nbsp;– The margin of the viewer will fill into the browser window.&nbsp;</span></li>
+</ul></ul>
+</td>
+</tr>
+<tr valign="top">
+<td width="167" valign="top" style="border-width : 1px; border-color: #333333; border-style: solid; padding: 8px; background-color: #e0e0e0;"><p class="rvps2"><span class="rvts14">Lighting</span></p>
+</td>
+<td width="714" valign="middle" style="border-width : 1px; border-color: #333333; border-style: solid; padding: 8px;"><p class="rvps2"><span class="rvts6">Sets the viewer's lighting mode:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;"><ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts29">Ambient</span><span class="rvts6">&nbsp;– The viewer will be set to the ambient lighting mode, which produces smoother and more even lighting of the displayed models.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts29">Headlight</span><span class="rvts6">&nbsp;– The viewer will be set to a lighting mode, which uses a combination of ambient lighting and a directional headlight. This mode produces similar results to how scenes are displayed inside of the V-Suite CORE viewer.</span></li>
+</ul></ul>
+</td>
+</tr>
+<tr valign="top">
+<td width="167" valign="top" style="border-width : 1px; border-color: #333333; border-style: solid; padding: 8px; background-color: #e0e0e0;"><p class="rvps2"><span class="rvts14">Ambient Intensity</span></p>
+</td>
+<td width="714" valign="middle" style="border-width : 1px; border-color: #333333; border-style: solid; padding: 8px;"><p class="rvps2"><span class="rvts6">This parameter adjusts the brightness of the Ambient lighting in the viewer. A higher intensity enhances model visibility and detail, while a lower intensity yields softer lighting.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="167" valign="top" style="border-width : 1px; border-color: #333333; border-style: solid; padding: 8px; background-color: #e0e0e0;"><p class="rvps2"><span class="rvts14">Edge Shader On</span></p>
+</td>
+<td width="714" valign="middle" style="border-width : 1px; border-color: #333333; border-style: solid; padding: 8px;"><p class="rvps2"><span class="rvts6">When enabled, the Edge Shader emphasizes the outlines of the 3D model, enhancing the visibility of edges in complex models.</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;"><ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+<li style="margin-left: 0px" class="rvps4"><span class="rvts29">Ridge -</span><span class="rvts6">&nbsp;This parameter adjusts the intensity of the Edge Shader on the ridges or high points of the model. A higher value will make the ridges more pronounced.</span></li>
+<li style="margin-left: 0px" class="rvps4"><span class="rvts29">Valley -</span><span class="rvts6">&nbsp;This parameter adjusts the intensity of the Edge Shader on the valleys or low points of the model. A higher value will make the valleys more pronounced.</span></li>
+</ul></ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts34">Note that the Edge Shader only applies when the viewer's projection mode is set to Perspective.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="167" valign="top" style="border-width : 1px; border-color: #333333; border-style: solid; padding: 8px; background-color: #e0e0e0;"><p class="rvps2"><span class="rvts14">Compass Off</span></p>
+</td>
+<td width="714" valign="middle" style="border-width : 1px; border-color: #333333; border-style: solid; padding: 8px;"><p class="rvps2"><span class="rvts6">Select this option to hide the Compass by default.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="167" valign="top" style="border-width : 1px; border-color: #333333; border-style: solid; padding: 8px; background-color: #e0e0e0;"><p class="rvps2"><span class="rvts14">Slider Off</span></p>
+</td>
+<td width="714" valign="middle" style="border-width : 1px; border-color: #333333; border-style: solid; padding: 8px;"><p class="rvps2"><span class="rvts6">Select this option to hide the Zoom Slider by default.&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="167" valign="top" style="border-width : 1px; border-color: #333333; border-style: solid; padding: 8px; background-color: #e0e0e0;"><p class="rvps2"><span class="rvts14">Memory Limit&nbsp;</span></p>
+</td>
+<td width="714" valign="middle" style="border-width : 1px; border-color: #333333; border-style: solid; padding: 8px;"><p class="rvps13"><span class="rvts34">Specifies the level of memory to be used when loading Knowledge Views. The memory used at Recommended and Maximum levels is dependent upon your browser.</span></p>
+<p class="rvps13"><span class="rvts34">&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 0px; list-style-position: inside; list-style-type: disc;"><ul style="text-indent: 0px; padding: 0; margin: 0 0 0 72px; list-style-position: outside; list-style-type: circle;">
+<li class="rvps13"><span class="rvts34">Chrome – 125MB at Recommended /&nbsp;500MB at Maximum.&nbsp;</span></li>
+<li class="rvps13"><span class="rvts34">IE – 40MB at Recommended /&nbsp;160MB at Maximum.</span></li>
+<li class="rvps13"><span class="rvts34">Firefox – 75MB at Recommended /&nbsp;300MB at Maximum.&nbsp;</span></li>
+</ul></ul>
+<p class="rvps13"><span class="rvts34">&nbsp;</span></p>
+<p class="rvps13"><span class="rvts34">This memory level&nbsp;is the&nbsp;</span><span class="rvts36">limit</span><span class="rvts34">&nbsp;of allowable memory by the viewer. Opening a small Knowledge View, for example, will still use minimal system resources even if the memory level is at Maximum.</span></p>
+<p class="rvps13"><span class="rvts34">&nbsp;</span></p>
+<p class="rvps13"><span class="rvts35">CAUTION is advised with the&nbsp;Maximum memory level, as it may result in slower performance of the viewer</span><span class="rvts34">.&nbsp;&nbsp;</span></p>
+</td>
+</tr>
+</table>
+</div>
+<h1 class="rvps7"><a name="ScratchPadPreferences"></a>
+<span class="rvts0"><span class="rvts28">Scratch Pad Preferences</span></span></h1>
+<p class="rvps2"><span class="rvts6">Expand the </span><span class="rvts29">Scratch Pad Preferences</span><span class="rvts6">&nbsp;accordion to modify your Scratch Pad preferences.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<div class="rvps2"><table border="1" cellpadding="8" cellspacing="-1" style="border-width: 0px; border-collapse: collapse;">
+<tr valign="top">
+<td width="168" valign="middle" style="border-width : 1px; border-color: #333333; border-style: solid; padding: 8px; background-color: #002856;"><p class="rvps2"><span class="rvts12">Scratch Pad Preference</span></p>
+</td>
+<td width="713" valign="middle" style="border-width : 1px; border-color: #333333; border-style: solid; padding: 8px; background-color: #002856;"><p class="rvps2"><span class="rvts12">Function&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="168" valign="top" style="border-width : 1px; border-color: #333333; border-style: solid; padding: 8px; background-color: #e0e0e0;"><p class="rvps2"><span class="rvts14">Font Family</span></p>
+</td>
+<td width="713" valign="middle" style="border-width : 1px; border-color: #333333; border-style: solid; padding: 8px;"><p class="rvps2"><span class="rvts6">Allows you to choose the default text font. </span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="168" valign="top" style="border-width : 1px; border-color: #333333; border-style: solid; padding: 8px; background-color: #e0e0e0;"><p class="rvps2"><span class="rvts14">Font Color</span></p>
+</td>
+<td width="713" valign="middle" style="border-width : 1px; border-color: #333333; border-style: solid; padding: 8px;"><p class="rvps2"><span class="rvts6">Allows you to choose the default text color.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="168" valign="top" style="border-width : 1px; border-color: #333333; border-style: solid; padding: 8px; background-color: #e0e0e0;"><p class="rvps2"><span class="rvts14">Font Size</span></p>
+</td>
+<td width="713" valign="middle" style="border-width : 1px; border-color: #333333; border-style: solid; padding: 8px;"><p class="rvps2"><span class="rvts6">Allows you to choose the default text size.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="168" valign="top" style="border-width : 1px; border-color: #333333; border-style: solid; padding: 8px; background-color: #e0e0e0;"><p class="rvps2"><span class="rvts14">Fill Color&nbsp;</span></p>
+</td>
+<td width="713" valign="middle" style="border-width : 1px; border-color: #333333; border-style: solid; padding: 8px;"><p class="rvps2"><span class="rvts6">Allows you to choose the default fill color for text blocks and shapes.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="168" valign="top" style="border-width : 1px; border-color: #333333; border-style: solid; padding: 8px; background-color: #e0e0e0;"><p class="rvps2"><span class="rvts14">Line Color</span></p>
+</td>
+<td width="713" valign="middle" style="border-width : 1px; border-color: #333333; border-style: solid; padding: 8px;"><p class="rvps2"><span class="rvts6">Allows you to choose the default color of the border for shapes or the color of the line for the arrow and free draw mode. </span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="168" valign="top" style="border-width : 1px; border-color: #333333; border-style: solid; padding: 8px; background-color: #e0e0e0;"><p class="rvps2"><span class="rvts14">Line Width</span></p>
+</td>
+<td width="713" valign="middle" style="border-width : 1px; border-color: #333333; border-style: solid; padding: 8px;"><p class="rvps2"><span class="rvts6">Allows you to choose the default width of the border for shapes or the color of the line for the arrow and free draw mode. </span></p>
+</td>
+</tr>
+</table>
+</div>
+<h1 class="rvps7"><a name="UIPreferences"></a>
+<span class="rvts0"><span class="rvts28">UI Preferences</span></span></h1>
+<p class="rvps2"><span class="rvts6">Expand the </span><span class="rvts29">UI Preferences</span><span class="rvts6">&nbsp;accordion to modify your Knowledge Book Viewer UI preferences.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<div class="rvps2"><table border="1" cellpadding="8" cellspacing="-1" style="border-width: 0px; border-collapse: collapse;">
+<tr valign="top">
+<td width="208" valign="middle" style="border-width : 1px; border-color: #333333; border-style: solid; padding: 8px; background-color: #002856;"><p class="rvps2"><span class="rvts12">UI Preference</span></p>
+</td>
+<td width="670" valign="middle" style="border-width : 1px; border-color: #333333; border-style: solid; padding: 8px; background-color: #002856;"><p class="rvps2"><span class="rvts12">Function&nbsp;</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="208" valign="top" style="border-width : 1px; border-color: #333333; border-style: solid; padding: 8px; background-color: #e0e0e0;"><p class="rvps2"><span class="rvts14">Display Inherited Attributes</span></p>
+</td>
+<td width="670" valign="middle" style="border-width : 1px; border-color: #333333; border-style: solid; padding: 8px;"><p class="rvps2"><span class="rvts6">Select this option to make the </span><a class="rvts11" href="AssetInformation.html">Asset Information</a><span class="rvts6">&nbsp;panel display attribute bars for parent assets in addition to the attribute bars shown for the </span><a class="rvts11" href="PickAsset.html">picked asset</a><span class="rvts6">.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="208" valign="top" style="border-width : 1px; border-color: #333333; border-style: solid; padding: 8px; background-color: #e0e0e0;"><p class="rvps2"><span class="rvts14">Auto Expand</span></p>
+</td>
+<td width="670" valign="middle" style="border-width : 1px; border-color: #333333; border-style: solid; padding: 8px;"><p class="rvps2"><span class="rvts6">Allows you to select which of the Knowledge Book Viewer slide-out panels will automatically expand when its content changes. The automatic expand behavior can be set for the following panels:</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;"><ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+<li style="margin-left: 0px" class="rvps4"><a class="rvts11" href="AssetInformation.html">Asset Information</a></li>
+<li style="margin-left: 0px" class="rvps4"><a class="rvts11" href="HideAsset.html">Hidden Assets</a></li>
+<li style="margin-left: 0px" class="rvps4"><a class="rvts11" href="MeasurementPoints.html">Measurements</a></li>
+</ul></ul>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Click the </span><span class="rvts29">Save</span><span class="rvts6">&nbsp;button to save your preferences and apply these preferences to your current session. Click the </span><span class="rvts29">Reset</span><span class="rvts6">&nbsp;button to revert your preferences to application default settings.</span></p>
+<p></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">Copyright 2023 Visionaize, Inc. All rights reserved.</div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-1.11.3/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+  <script src="vendors/fastclick-1.0.6/fastclick.min.js"></script>
+  <script src="vendors/markjs-8.8.3/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.18.9/uri.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="vendors/bootstrap-3.3.6/js/ie10-viewport-bug-workaround.js"></script>
+  
+  <!-- Headroom -->
+  <script src="vendors/headroom-0.9.3/headroom.min.js"></script>
+  <script src="vendors/headroom-0.9.3/jquery.headroom.min.js"></script>
+
+  <!-- JsTree -->
+  <script src="vendors/jstree-3.3.2/jstree.min.js"></script>
+
+  <!-- HelpNDoc scripts -->
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Scripts -->
+  <script>
+    $(function() {
+      // Instanciate FastClick
+      Origami.fastclick(document.body);
+      // Create the app
+      var app = new Hnd.App();
+      // Update translations
+      hnd_ut(app);
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

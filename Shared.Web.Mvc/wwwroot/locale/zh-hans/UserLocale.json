@@ -1,0 +1,11 @@
+{
+  "header": {
+    "locale": "语言环境偏好"
+  },
+  "form": {
+    "language": "语",
+    "datePattern": "日期模式",
+    "timePattern": "时间模式",
+    "timeZone": "时区"
+  }
+}

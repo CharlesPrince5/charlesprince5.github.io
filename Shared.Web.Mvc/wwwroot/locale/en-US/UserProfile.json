@@ -1,0 +1,34 @@
+﻿{
+    "header": {
+      "account": "My Account",
+      "locale": "My Locale"
+    },
+    "form": {
+        "ok": "OK",
+        "cancel": "Cancel",
+        "resetPassword": "Change Password",
+        "password": "Password",
+        "oldPassword": "Old Password",
+        "newPassword": "New Password",
+        "confirmPassword": "Confirm New Password",
+        "passwordMustMatch": "Passwords must match.",
+        "changePassword": "Change",
+        "changePasswordHeader": "Change Password",
+        "passwordExpired": "Password Expired",
+        "updateProfile": "Update",
+        "cannotBeSamePassword": "The new password cannot be the same as the old password.",
+        "language": "Language",
+        "datePattern": "Date pattern",
+        "timePattern": "Time pattern",
+        "timeZone": "Time zone"
+    },
+  "common": {
+    "firstname": "First Name",
+    "lastname": "Last Name",
+    "username": "User Name",
+    "email": "Email Address",
+    "activeDirectoryName": "Windows User Name",
+    "azureUsername": "Azure AD Account Username",
+    "adfsUsername": "ADFS Account Username"
+  }
+}

@@ -1,0 +1,12 @@
+﻿{
+  "header": {
+    "units": "Units of Measurement"
+  },
+
+  "table": {
+    "project":  "Project",
+    "type": "Type",
+    "unit": "Unit",
+    "precision": "Precision"
+  }
+}
