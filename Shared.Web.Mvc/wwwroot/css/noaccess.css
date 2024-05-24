@@ -1,9 +1,0 @@
-
-
-body{font-family: Verdana, Geneva, sans-serif;}
-
-.center {color:#717171;  position: fixed;top: 50%;left: 50%;transform: translate(-50%, -50%);text-align:center;width: 560px;}
-  
-h1{font-size:50px;font-weight: bold;margin-top: 25px;margin-bottom:20px;}
-p{color:#717171; font-size:20px; padding-top:5px; line-height:120%;}
-.btn {margin-top: 25px;}

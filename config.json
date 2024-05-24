@@ -1,6 +1,0 @@
-{
-  "ConnectionOptions": {
-    "DataSourceType": "SqlServer",
-    "ConnectionString": "Server=CPWCGHVSUITE01\\VSUITE2;Database=Configuration_E53LL;Trusted_Connection=True;MultipleActiveResultSets=True;"
-  }
-}
